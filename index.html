@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Image</title>
+    <title>Centered Image with Text</title>
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -17,9 +18,15 @@
             width: 150px;
             height: 150px;
         }
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <img src="check.png" alt="Centered Image">
+    <p>Complete</p>
 </body>
 </html>
